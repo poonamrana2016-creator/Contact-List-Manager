@@ -40,7 +40,7 @@ const Dashboard = () => {
 
                 <thead>
                   <tr>
-                    <th>Sr. No.</th>
+                    <th>S.No.</th>
                     <th>Name</th>
                     <th>Number</th>
                     <th>Email</th>
