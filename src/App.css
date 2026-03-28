@@ -1,0 +1,47 @@
+/* Navbar custom */
+.nav_bg{
+    background: linear-gradient(90deg, #4b6cb7 0%, #293f6a 100%);
+}
+.project_title {
+    font-size: 30px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right, #6db84a, #c9b5df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navbar Custom Ends */
+
+/* Dashboard CSS */
+.dashboard_bg{
+  background: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+.phone-frame {
+  border: 12px solid #222;        /* thick outer border like phone body */
+  border-radius: 40px;            /* curved edges */
+  padding: 20px;
+  max-width: 360px;               /* typical phone width */
+  margin: auto;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.phone-frame::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 10px;
+  background: #000;
+  border-radius: 10px;
+}
+
+
+.add_display:hover{
+
+}
+/* Dashboard CSS Ends */
